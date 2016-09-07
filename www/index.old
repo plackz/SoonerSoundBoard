@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sooner Sound Board</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel=""
+  </head>
+  
+  <body>
+    <header>Sooner Sound Board
+    </header>
+    
+    <main>
+      <input type="button" class="btn" value="Pause" onclick="pause()">
+
+      <p>
+      
+      </p>
+      
+      <input type="button" class="btn" id="sooner" value="Boomer Sooner (w/ Intro)" onclick="play()">
+      <audio id="audio" src="sounds/boomer_sooner_with_intro.mp3"></audio>
+
+      <p>
+      
+      </p>
+      
+      <input type="button" class="btn" id="sooner" value="Boomer Sooner (no Intro)" onclick="play1()">
+      <audio id="audio1" src="sounds/boomer_sooner_without_intro.mp3"></audio>
+      
+      <p>
+      
+      </p>
+      
+      <input type="button" class="btn" id="cowboy" value="Cowboys" onclick="play()">
+      <audio id="audio" src="sounds/Oklahoma_State__Ride_'Em_Cowboys.mp3"></audio>
+      
+      <p>
+      
+      </p>
+      
+      <input type="button" class="btn" id="oklahoma" value="Oklahoma (w/ Intro)" onclick="play()">
+      <audio id="audio" src="sounds/oklahoma_with_intro.mp3"></audio>
+      
+      <p>
+      
+      </p>
+      
+      <input type="button" class="btn" id="oklahoma" value="Oklahoma (no Intro)" onclick="play()">
+      <audio id="audio" src="sounds/oklahoma_without_intro.mp3"></audio>
+      
+      
+    </main>
+  
+    <script src="main.js"></script>
+  </body>
+
+
+</html>

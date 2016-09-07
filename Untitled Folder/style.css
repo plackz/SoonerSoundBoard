@@ -1,0 +1,50 @@
+header, body, main {
+  background-color: lightgray;
+  color: black;
+  text-align: center;
+  
+}
+
+header {
+  font-family: Helvetica, sans-serif;
+  font-size: 2em;
+  padding-bottom: 1em;
+  
+}
+
+.btn {
+  border-radius: .75em;
+  height: 3em;
+  background-color: gray;
+  color: black;
+  width: 13em;
+  height: 4em;
+  font-size: 1.2em;
+  border-color: black;
+}
+
+.psbtn {
+  border-radius: .75em;
+  height: 3em;
+  background-color: gray;
+  color: black;
+  width: 4em;
+  height: 4em;
+  font-size: 1.2em;
+  border-color: black;
+}
+
+#sooner {
+  background-color: darkred;
+  color: white;
+}
+
+#cowboy {
+  background-color: orangered;
+  color: black;
+}
+
+#oklahoma {
+  background-color: dodgerblue;
+  color: white;
+}
